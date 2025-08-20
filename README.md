@@ -23,12 +23,11 @@ Sending beacon frames on BW16 (RTL8720DN)
 # Install
 1. Download or Clone the Repository.
 2. Open the folder and open `BW16_beacon.ino` in Arduino IDE.
-3. Compile the code.
-4. Select board from the `Tools` → `Board` → `AmebaD ARM (32-bits) Boards`.
+3. Select board from the `Tools` → `Board` → `AmebaD ARM (32-bits) Boards`.
    - It is `Ai-Thinker BW16 (RTL8720DN)`.
-6. Select the port of that board.
-7. Go to `Tools` → `Board` → `Auto Flash Mode` and select `Enable`.
-8. Upload the code.
+4. Select the port of that board.
+5. Go to `Tools` → `Board` → `Auto Flash Mode` and select `Enable`.
+6. Upload the code.
    - Firmware will start working immediately.
 
 # Note

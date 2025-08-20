@@ -30,5 +30,7 @@ Sending beacon frames on BW16 (RTL8720DN)
 7. Go to `Tools` → `Board` → `Auto Flash Mode` and select `Enable`.
 8. Upload the code.
    - Firmware will start working immediately.
-  
-Code for educational purposes
+
+# Note
+According to measurements, the board with my code consumes 165-205mA
+Code for educational purposes, good luck

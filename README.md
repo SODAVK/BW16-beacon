@@ -4,9 +4,6 @@ Sending beacon frames on BW16 (RTL8720DN)
 # Hardware Requirements
 - Ai-Thinker BW16 RTL8720DN Development Board
 
-# Note
-- It has two variants : Type-B and Type-C connectors.
-
 # Setup
 1. Download Arduino IDE from [here](https://www.arduino.cc/en/software) according to your Operating System.
 2. Install it.

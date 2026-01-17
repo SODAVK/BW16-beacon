@@ -31,5 +31,6 @@ Sending beacon frames on BW16 (RTL8720DN)
    - Firmware will start working immediately.
 
 # Note
-According to measurements, the board with my code consumes 165-205mA.
+Android/ios in sleep mode, may not be dont detected <br>
+TTL Scan may not work <br>
 Code for educational purposes, good luck

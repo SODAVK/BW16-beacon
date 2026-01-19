@@ -1,3 +1,7 @@
+//simple version of deauth on bw16, but it work
+//for advanced features (cts inject, disassoc)   see beaconspamv2.ino
+//made by SoDaVk, please give me a star on github: https://github.com/SODAVK
+// WARNING: version of AmebaSDK must be 3.1.7 for normal compile
 #include <WiFi.h>
 #include <wifi_conf.h>
 #include <wifi_util.h>
@@ -84,8 +88,7 @@ uint8_t beacon_template[] = {
     0xff,0xff,0xff,0xff,0xff,0xff,
     0x12,0x34,0x56,0x78,0x9a,0xbc, 
     0x12,0x34,0x56,0x78,0x9a,0xbc, 
-    0x00, 0x00,// seqfrag
-
+    0x00, 0x00,//seqfrag
     //fixed
     0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
     0x64, 0x00,//interval
@@ -106,7 +109,7 @@ void setup() {
   wifi_disable_powersave();
   pmu_set_sysactive_time(0xFFFFFFFF);
   wext_set_channel(WLAN0_NAME, 1);
-  Serial.println("B spammer started");
+  Serial.println("Beacon started");
 }
 
 uint8_t channels[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
@@ -127,6 +130,6 @@ void loop() {
     sendWifiRawManagementFrames(frame, frame_len);
     channel_index = (channel_index + 1) % 3;
     wext_set_channel(WLAN0_NAME, channels[channel_index]);
-    delay(1); //delayMicroseconds(100);
+    delay(1); //or delayMicroseconds(100);
   }
 }

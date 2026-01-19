@@ -1,5 +1,4 @@
-//simple version of deauth on bw16, but it work
-//for advanced features (cts inject, disassoc)   see beaconspamv2.ino
+//simple version of beacon spam, for more effective see beaconspamv2.ino
 //made by SoDaVk, please give me a star on github: https://github.com/SODAVK
 // WARNING: version of AmebaSDK must be 3.1.7 for normal compile
 #include <WiFi.h>

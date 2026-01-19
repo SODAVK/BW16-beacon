@@ -31,14 +31,10 @@ Sending beacon frames on BW16 (RTL8720DN)
    - Firmware will start working immediately.
 
 # Diff between vers1 and vers2
-version1 (beaconspamv1.ino) It's made simpler, and to be honest, even taken from another project. <br>
-It creates a lot of unnecessary output in the terminal. But it works. <br>
+version1 (beaconspamv1.ino) It's made simpler. Creates a lot of unnecessary output in the terminal. But it works. <br>
 
-version2 (beaconspamv2.ino) More deeply developed, quite terminal output. <br>
-It has additional tools to assist Deauth. For example code send 3 types of packg: <br>
-Disassoc, Deauth, cts (0xFFFF) <br>
-And thanks to this it works better even with slightly smart routers <br>
+version2 (beaconspamv2.ino) More deeply developed, quite terminal output. ALSO GOOD WORK ON ANDROID/IOS <br>
 
 # Note
-Power consumption ~150-160mA <br>
+Power consumption ~180-205mA, warning board can be offheat  <br>
 Code for educational purposes, good luck

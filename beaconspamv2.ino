@@ -1,7 +1,4 @@
-//quite, fast, effective code for deauth networks on bw16
-//not simple attack, code send 3 types of packg: Disassoc, Deauth, cts (0xFFFF)
-//code tested only on old provider-gives routers (2016-2021) with wpa/wpa2 without pmf and none very smart function
-//deauth for 10-15 wifi ap's work perfect, with more not tested
+//ALSO GOOD WORKS WITH ANDROID 16/IOS 18 (on ios 26 dont know)
 // WARNING: version of AmebaSDK must be 3.1.7 for normal compile
 //made by SoDaVk, please give me a star on github: https://github.com/SODAVK
 #include <Arduino.h>
